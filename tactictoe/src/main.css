@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 100px;
+    padding: 10px;
+    height: 100px; 
+      }
+      .column-3 {
+        float: left;
+        width: 300px;
+        padding: 10px;
+        height: 30px; 
+          }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+   
+  }
+
+  .column1{
+    background-color:#aaa;
+    border: black solid 1px;/* Should be removed. Only for demonstration */
+
+  }
+  .column2{
+    background-color:#bbb;
+    border: black solid 1px;/* Should be removed. Only for demonstration */
+
+  }
+  .column3{
+    background-color:#ccc;
+    border: black solid 1px;/* Should be removed. Only for demonstration */
+
+  }
+
+  .winner{
+    background-color:white;
+    color: green;
+  }
